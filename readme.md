@@ -1,7 +1,7 @@
 # siteMarkr
 
-Angular 2
-Meteor
-Typings
-TypeScript
-etc.
+- Angular 2
+- Meteor
+- Typings
+- TypeScript
+- etc.
