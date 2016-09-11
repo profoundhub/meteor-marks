@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import 'zone.js/dist/zone';
-import {Component} from '@angular/core';
-import {bootstrap} from '@angular/platform-browser-dynamic';
+import { Component } from '@angular/core';
+import { bootstrap } from '@angular/platform-browser-dynamic';
 
 import template from './app.html';
 
@@ -12,7 +12,7 @@ import template from './app.html';
 })
 
 class SiteMarkr {
-    constructor() {}
+    constructor(){}
 }
 
 bootstrap(SiteMarkr);
