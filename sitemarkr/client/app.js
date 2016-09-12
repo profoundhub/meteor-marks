@@ -11,20 +11,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 require('reflect-metadata');
 require('zone.js/dist/zone');
 var core_1 = require('@angular/core');
-var SiteMarkr = (function () {
-    function SiteMarkr() {
+var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
+var app_html_1 = require('./app.html');
+var Webmarks = (function () {
+    function Webmarks() {
     }
-    SiteMarkr = __decorate([
+    Webmarks = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'app',
-            templateUrl: './app.html',
+            template: app_html_1.default
         }), 
         __metadata('design:paramtypes', [])
-    ], SiteMarkr);
-    return SiteMarkr;
+    ], Webmarks);
+    return Webmarks;
 }());
-core_1.bootstrap(SiteMarkr);
-// platformBrowserDynamic().bootstrapModule(SiteMarkr);
-// export class SiteMarkr {}
+platform_browser_dynamic_1.bootstrap(Webmarks);
 //# sourceMappingURL=app.js.map
