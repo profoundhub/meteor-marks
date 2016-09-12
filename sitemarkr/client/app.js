@@ -14,7 +14,7 @@ var core_1 = require('@angular/core');
 // import { bootstrap } from '@angular/platform-browser-dynamic';
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 // import { AppModule } from './app.module';
-var app_html_1 = require('./app.html');
+// import template from 'app.html';
 var Sitemarkr = (function () {
     function Sitemarkr() {
     }
@@ -22,14 +22,13 @@ var Sitemarkr = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app',
-            template: app_html_1.default
+            templateUrl: './app.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Sitemarkr);
     return Sitemarkr;
 }());
 exports.Sitemarkr = Sitemarkr;
-// bootstrap(Sitemarkr);
 // platformBrowserDynamic().bootstrapModule(Sitemarkr);
 platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(Sitemarkr);
 //# sourceMappingURL=app.js.map
