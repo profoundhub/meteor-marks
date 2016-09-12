@@ -11,8 +11,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 require('reflect-metadata');
 require('zone.js/dist/zone');
 var core_1 = require('@angular/core');
-// import { bootstrap } from '@angular/platform-browser-dynamic';
-var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var SiteMarkr = (function () {
     function SiteMarkr() {
     }
@@ -26,6 +24,7 @@ var SiteMarkr = (function () {
     ], SiteMarkr);
     return SiteMarkr;
 }());
-// bootstrap(SiteMarkr);
-platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(SiteMarkr);
+core_1.bootstrap(SiteMarkr);
+// platformBrowserDynamic().bootstrapModule(SiteMarkr);
+// export class SiteMarkr {}
 //# sourceMappingURL=app.js.map
