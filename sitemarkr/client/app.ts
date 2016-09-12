@@ -14,10 +14,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
     templateUrl: './app.html'
 })
 
-
 export class Sitemarkr {
-    // constructor() {
-    // }
+    constructor() {
+    }
 }
 
 // platformBrowserDynamic().bootstrapModule(Sitemarkr);
